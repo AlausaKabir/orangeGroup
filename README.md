@@ -40,7 +40,7 @@
 
 ## Documentation
 
-Documentation for this api can be found [here](https://documenter.getpostman.com/view/13549167/Tz5tZ6QJ)
+Documentation for this api can be found [here](https://documenter.getpostman.com/view/20295049/2s9YkgCQPt)
 
 ## Author
 
