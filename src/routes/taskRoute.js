@@ -1,12 +1,12 @@
 import express from 'express';
-import TaskController from '../controllers/taskController';
-import validate from '../../../validation/validatorClass';
+import TaskController from '../apps/task/controllers/taskController';
+import validate from '../validation/validatorClass';
 import {
   createTaskSchema,
   idSchema,
   updateTaskSchema,
   getTasksSchema,
-} from '../validation/task';
+} from '../apps/task/validation/task';
 
 const router = express.Router();
 

@@ -5,7 +5,7 @@ import bodyParser from 'body-parser';
 import Logger from '../config/logger';
 import morgan from 'morgan';
 import notFoundMiddleware from '../middleware/not-found.middleware';
-import taskRoute from '../apps/task/routes/taskRoute';
+import taskRoute from './taskRoute';
 
 const app = express();
 
@@ -22,7 +22,7 @@ app.use(`/healthcheck`, (req, res) => {
   res.status(200).send('Orange Group  is online and healthy techies');
 });
 
-// ## Task ROUTES ##
+
 app.use('/task', taskRoute);
 
 app.get('/', (req, res) => {

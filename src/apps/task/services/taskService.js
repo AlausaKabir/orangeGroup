@@ -166,7 +166,6 @@ export default class TaskService {
    */
   static async fetchProductService() {
     try {
-      //NOTE: mock External API call to fetch product
       const { TODO } = keys.EXTERNAL_APIS;
 
       const url = TODO;
